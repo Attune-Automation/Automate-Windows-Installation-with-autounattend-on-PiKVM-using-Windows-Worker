@@ -1,4 +1,5 @@
 {
+    "externalUuid4": "51e2d087-eed5-450f-88ac-28d85773c1dc", 
     "key": "automatewindowsinstallationwithautounattendonpikvmusingwindowsworker", 
     "name": "Automate Windows Installation with autounattend on PiKVM using Windows Worker", 
     "revision": "145c6dc54454"
