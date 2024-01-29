@@ -77,7 +77,7 @@ This Project contains the following Blueprints.
 | Automation Worker Windows User: Administrator | Windows Credential | `automationworkerwindowsuseradministrator` |  |
 | New OS Node | Basic Node | `newosnode` |  |
 | New OS Windows Node | Windows Node | `newoswindowsnode` |  |
-| New OS Windows User: administrator | Windows Credential | `newoswindowsuseradministrator` |  |
+| New OS Windows User: Administrator | Windows Credential | `newoswindowsuseradministrator` |  |
 
 
 

@@ -2,7 +2,7 @@
     "actionOnStepFail": null, 
     "blueprintName": "", 
     "blueprintUuid": "9debd3f3-2142-4991-b1f0-9a6f7a291f1c", 
-    "cloneUrl": "https://github.com/Attune-Automation/Automate-Windows-Installation-with-autounattend", 
+    "cloneUrl": "https://github.com/Attune-Automation/Create-Windows-ISO-with-autounattend-built-on-Windows.git", 
     "enabled": true, 
     "externalUuid4": "ce8743a2-c711-438d-8ff7-7c8dcc8e51bb", 
     "key": "performcleanuponwindowsworker", 
@@ -13,7 +13,7 @@
             "childParameterType": "c.s.s.b.phv.WindowsServer", 
             "childParameterUuid": "0e0baf15-0492-4b6d-9bf7-98b74f291b94", 
             "childProjectName": null, 
-            "childProjectUuid": "05c41adc-9b4e-49f9-b72c-aa4ee4a0cf27", 
+            "childProjectUuid": "e4a6b45c-e9e7-4b73-8dbc-019fecca12e3", 
             "parentParameterKey": "automationworkerwindowsnode", 
             "parentStaticTextValue": null
         }, 
@@ -22,7 +22,7 @@
             "childParameterType": "c.s.s.b.phv.WinOsCred", 
             "childParameterUuid": "467707ca-e020-4cba-8bd6-e3f0abdc1bee", 
             "childProjectName": null, 
-            "childProjectUuid": "05c41adc-9b4e-49f9-b72c-aa4ee4a0cf27", 
+            "childProjectUuid": "e4a6b45c-e9e7-4b73-8dbc-019fecca12e3", 
             "parentParameterKey": "automationworkerwindowsuseradministrator", 
             "parentStaticTextValue": null
         }, 
@@ -31,13 +31,22 @@
             "childParameterType": "c.s.s.b.phv.Server", 
             "childParameterUuid": "7116171b-6cab-412b-b2c3-cdbf063a7ace", 
             "childProjectName": null, 
-            "childProjectUuid": "05c41adc-9b4e-49f9-b72c-aa4ee4a0cf27", 
+            "childProjectUuid": "e4a6b45c-e9e7-4b73-8dbc-019fecca12e3", 
             "parentParameterKey": "newosnode", 
+            "parentStaticTextValue": null
+        }, 
+        {
+            "childParameterName": null, 
+            "childParameterType": "c.s.s.b.phv.Text", 
+            "childParameterUuid": "4ca90e98-f72b-497a-82ee-eba3669b167c", 
+            "childProjectName": null, 
+            "childProjectUuid": "e4a6b45c-e9e7-4b73-8dbc-019fecca12e3", 
+            "parentParameterKey": "automationworkerbasedirectory", 
             "parentStaticTextValue": null
         }
     ], 
     "projectName": "", 
-    "projectUuid": "05c41adc-9b4e-49f9-b72c-aa4ee4a0cf27", 
+    "projectUuid": "e4a6b45c-e9e7-4b73-8dbc-019fecca12e3", 
     "projectVersion": "", 
     "type": "com.servertribe.attune.tuples.StepProjectLinkTuple"
 }
